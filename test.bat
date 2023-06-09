@@ -1,12 +1,8 @@
 @REM Mon premier fichier .bat
 
-@REM Déclaration du fichier BATCH
-@echo off
-color 0a
-echo Hello !
+cls
 
-pause
+@echo off 
+set /A %a%[0]= 5
 
-:test
-echo ceci est un test
-goto test
+echo python3 main.py
